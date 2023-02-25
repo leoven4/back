@@ -1,16 +1,11 @@
-# dependencies
+# dependencies in root
 /back_venv
-/__pycache__
 /chromedriver
 
-
+# everywhere
+**/__pycache__
 constants.py
-
-# testing
-/coverage
-
-# production
-/build
+token.txt
 
 # misc
 .pkl
