@@ -1,15 +1,15 @@
 # dependencies in root
 /back_venv
-/chromedriver
 
 # everywhere
 **/__pycache__
 constants.py
 token.txt
+**/chromedriver
 
 # misc
-.pkl
-.txt
+*.pkl
+*.txt
 .DS_Store
 .env.local
 .env.development.local
