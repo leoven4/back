@@ -5,6 +5,9 @@
 **/__pycache__
 constants.py
 token.txt
+output.txt
+index.html
+index_error.html
 **/chromedriver
 
 # misc
@@ -19,3 +22,4 @@ token.txt
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+

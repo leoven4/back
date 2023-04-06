@@ -77,7 +77,7 @@ class Instabot:
                 state=driver.get_cookies()
             except:
                 break
-        pickle.dump(state,open("authDT.pkl","wb"))
+        pickle.dump(state,open("authDT_v2.pkl","wb"))
         print(state)
 
     def load_cookies(self):
