@@ -26,7 +26,7 @@ def check_webpage():
 
 
     try:
-        driver.get('https://www.cassageometri.it/')
+        driver.get('    ')
         time.sleep(2)
         # driver.implicitly_wait(1)
         # area_riservata = WebDriverWait(driver, 1).until(EC.presence_of_element_located((By.XPATH, '//*[@id="navbar"]/ul/li[6]/a')))
@@ -63,8 +63,8 @@ def check_webpage():
         driver.close()
 
         if result == -1:
-            notify_via_email('leonardo.ventura@live.com', 'Cessazione crediti!!')
-            notify_via_email('geom.ventura@tiscali.it', 'Cessazione crediti!!')
+            notify_via_email('', 'Cessazione crediti!!')
+            notify_via_email('', 'Cessazione crediti!!')
             notify()
 
     except Exception as e:
