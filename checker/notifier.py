@@ -9,7 +9,7 @@ def notify_via_email(email_to, title):
 
     html = Template(Path('index.html').read_text())
     email = EmailMessage()
-    email['from'] = 'Leonardo Ventura'
+    email['from'] = ''
     email['to'] = email_to
     email['subject'] = title
 
@@ -26,9 +26,9 @@ def notify():
     client = Client(constants['account_sid'], constants['auth_token'])
 
     message = client.messages.create(
-    from_='+13854693508',
+    from_='',
     body='Il portale permette la cessazione dei crediti',
-    to='+393884040241'
+    to=''
     )
     print('MESSAGE SENT')
     print(message.sid)
@@ -38,9 +38,9 @@ def notify_error():
     client = Client(constants['account_sid'], constants['auth_token'])
 
     message = client.messages.create(
-    from_='+13854693508',
+    from_='',
     body='Error in Python code',
-    to='+393884040241'
+    to=''
     )
     print('MESSAGE SENT')
     print(message.sid)
