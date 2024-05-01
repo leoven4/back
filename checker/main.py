@@ -20,7 +20,7 @@ while counter<24:
 
     except Exception as e:
         print(e)
-        notify_via_email('leonardo.ventura@live.com', 'Error in pycode')
+        notify_via_email('', 'Error in pycode')
 
 sys.stdout.close()
 
