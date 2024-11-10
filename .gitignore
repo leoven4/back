@@ -1,5 +1,6 @@
 # dependencies in root
 /back_venv
+/.idea
 
 # everywhere
 **/__pycache__
