@@ -1,5 +1,5 @@
 import openai
-from constants import constants
+from constants_ai import constants
 import webbrowser
 from PIL import Image
 

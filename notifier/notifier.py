@@ -1,5 +1,5 @@
 from twilio.rest import Client
-from constants import constants
+from constants_notifier import constants
 import smtplib
 from email.message import EmailMessage
 from string import Template

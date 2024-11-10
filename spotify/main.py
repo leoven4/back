@@ -3,7 +3,7 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth
 from pprint import pprint
-from constants import constants
+from constants_spotify import constants
 
 page_root = constants['page_root']
 DATE = constants['DATE']

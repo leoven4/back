@@ -1,5 +1,5 @@
 import time
-from notifier import notify_via_email
+from notifier.notifier import notify_via_email
 from check_webpage import check_webpage
 import sys
 sys.stdout = open('./output.txt', 'w')

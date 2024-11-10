@@ -1,5 +1,5 @@
 import openai
-from constants import constants
+from constants_ai import constants
 
 openai.api_key = constants["openai_api_key"]
 

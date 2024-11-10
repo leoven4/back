@@ -1,11 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from notifier import notify, notify_via_email
+from notifier.notifier import notify, notify_via_email
 from constants import constants
 import time
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
+
 
 def check_webpage():
     chrome_options = webdriver.ChromeOptions()

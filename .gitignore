@@ -4,7 +4,7 @@
 
 # everywhere
 **/__pycache__
-constants.py
+constants*
 token.txt
 output.txt
 index.html

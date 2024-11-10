@@ -2,7 +2,7 @@ from clarifai_grpc.grpc.api import service_pb2, resources_pb2
 from clarifai_grpc.grpc.api.status import status_code_pb2
 from clarifai_grpc.channel.clarifai_channel import ClarifaiChannel
 from clarifai_grpc.grpc.api import service_pb2_grpc
-from constants import constants
+from constants_ai import constants
 
 stub = service_pb2_grpc.V2Stub(ClarifaiChannel.get_grpc_channel())
 
