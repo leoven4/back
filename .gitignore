@@ -4,7 +4,10 @@
 
 # everywhere
 **/__pycache__
+
 constants*
+storage.json
+
 token.txt
 output.txt
 index.html
